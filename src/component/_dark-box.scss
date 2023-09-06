@@ -1,0 +1,41 @@
+/**
+ * Komponente: image-text
+ */
+
+
+.tjs__dark-box {
+    background: $bg-dark;
+    border-radius: 20px;
+    position: relative;
+    padding: 30px;
+    margin-bottom: 50px;
+    .dark-border {
+        position: absolute;
+        width: calc(100% - 20px);
+        height: calc(100% - 20px);
+        border: 1px solid $primary;
+        border-radius: 20px;
+        top: 10px;
+        left: 10px;
+    }
+    blockquote {
+        color: $primary;
+        font-size: 2em;
+    }
+    p {
+        color: $text-light;
+    }
+    .tjs__start {
+
+    }
+    .tjs__end {
+
+    }
+
+    .tjs__wrapper {
+
+    }
+    &.mobile {
+       
+    }
+}

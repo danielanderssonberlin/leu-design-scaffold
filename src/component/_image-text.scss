@@ -1,0 +1,25 @@
+/**
+ * Komponente: image-text
+ */
+
+
+.tjs__image-text {
+    margin-bottom: 50px;
+    .tjs__start {
+
+    }
+    .tjs__end {
+
+    }
+
+    .tjs__wrapper {
+
+    }
+    &.mobile {
+        margin-bottom: 0;
+        .row > div {
+            margin-bottom: 50px;
+        }
+        
+    }
+}

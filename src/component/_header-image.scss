@@ -1,0 +1,45 @@
+/**
+ * Komponente: header-image
+ */
+ @import "bootstrap";
+
+.tjs__header-image {
+    @extend .p-3;
+    @extend .p-md-5;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    background: transparent linear-gradient(118deg, #E8F6FF 0%, #ECF2DC 100%) 0% 0% no-repeat padding-box;
+    blockquote {
+        font-size: calc(1.5em + 1vw);
+        font-weight: bold;
+        color: $text-color;
+    }
+    .btn-primary {
+        background-color: #41C7A8;
+        border: none;
+        color: #fff;
+        font-size: 14px;
+        padding: 10px 35px;
+        &:hover {
+            background-color: #41C7A8;
+        }
+    }
+    .tjs__start {
+
+    }
+    .tjs__end {
+
+    }
+
+    .tjs__wrapper {
+
+    }
+
+    &.mobile {
+      text-align: center;
+    }
+
+}

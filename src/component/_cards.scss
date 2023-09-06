@@ -1,0 +1,88 @@
+/**
+ * Komponente: cards
+ */
+
+
+.tjs__cards {
+    @extend .p-3;
+    @extend .p-md-5;
+    display: flex;
+    align-items: flex-start;
+    .col-md-6:first-child{
+        margin-bottom: 50px;
+    }
+    .card {
+        border-radius: 25px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        &.twisted {
+            transform: rotate(-2deg);
+        }
+    }
+    .card-content {
+        position: relative;
+        padding: 15px;
+        margin-bottom: 30px;
+        
+        .title{
+            width: 50%;
+            padding: 20px;
+            font-size: calc(0.6em + 1vw);
+            float: left;
+        }
+        .image {
+            width: 50%;
+            float: left;
+        }
+        
+        .text {
+            padding: 0 20px 20px;
+            font-size: 1.25em;
+        }
+        img {
+            width: -webkit-fill-available;
+            width: moz-fill-available;
+        }
+    }
+    .topline {
+        color: $primary;
+    }
+    blockquote {
+        font-size: calc(1.5em + 1vw);
+        font-weight: 500;
+        color: $text-color;
+    }
+    .tjs__start {
+
+    }
+    .tjs__end {
+
+    }
+
+    .tjs__wrapper {
+
+    }
+    &.mobile {
+        .card-content {
+            display: flex;
+            flex-direction: column;
+            .title{
+                width: 100%;
+                order: 2;
+                font-size: 1.2em;
+            }
+            .image {
+                width: 100%;
+                order: 1;
+            }
+            
+            .text {
+                order: 3;
+            }
+        }
+    }
+}

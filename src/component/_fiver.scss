@@ -1,0 +1,62 @@
+/**
+ * Komponente: fiver
+ */
+
+
+.tjs__fiver {
+    font-size: 18px;
+    margin-bottom: 50px;
+
+    blockquote {
+        font-size: 25px;
+        margin-bottom: 40px;
+        text-align: center;
+        span {
+            display: block;
+            font-weight: 500;
+        }
+    }
+    .icon {
+        width: 112px;
+        height: 112px;
+        padding: 28px;
+        border-radius: 66px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #EDEDED;
+        margin-bottom: 20px;
+        display: flex;
+        img {
+            width: -webkit-fill-available;
+            width: moz-available;
+            object-fit: contain;
+        }
+    }
+    .tjs__start {
+
+    }
+    .tjs__end {
+
+    }
+
+    .tjs__wrapper {
+
+    }
+
+    &.mobile {
+        .col {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .icon {
+            margin-bottom: 0;
+        }
+        .text {
+            width: inherit;
+            text-align: left;
+            padding-left: 2em;
+            align-self: center;
+        }
+    }
+
+}

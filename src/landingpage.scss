@@ -1,0 +1,27 @@
+main {
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    color: $text-color;
+}
+.arrow-link {
+    color: $primary;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.topline {
+    color: $primary;
+}
+.banner {
+    padding: 0.3rem;
+    background-color: $bg-dark;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 50px;
+    span {
+        color: #41C7A8;
+    }
+}

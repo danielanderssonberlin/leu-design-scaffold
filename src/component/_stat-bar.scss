@@ -1,0 +1,39 @@
+/**
+ * Komponente: stat-bar
+ */
+
+
+.tjs__stat-bar {
+    background-color: lightgrey; 
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .element {
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.3em;
+        span {
+            color: $primary;
+            font-size: 2.5em;
+            
+            display: block;
+        }
+    }
+    .tjs__start {
+
+    }
+    .tjs__end {
+
+    }
+
+    .tjs__wrapper {
+
+    }
+    &.mobile {
+        .row > div {
+            margin-bottom: 20px;
+        }
+        
+    }
+}
